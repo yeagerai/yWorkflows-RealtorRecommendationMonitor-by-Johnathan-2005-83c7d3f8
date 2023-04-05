@@ -4,5 +4,7 @@ description: The RealtorRecommendationMonitor is a Yeager Workflow that continuo
   workflow extracts the user's name and phone number using the Melissa API, and sends
   a message to the user using the specified messaging platform credentials. The workflow
   returns the sent message status, as well as the extracted user name and phone number.
+input-class: RealtorRecommendationMonitorIn
 name: RealtorRecommendationMonitor
+output-class: RealtorRecommendationMonitorOut
 parameters: {}
